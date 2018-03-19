@@ -1,0 +1,87 @@
+body {
+    background: tan;
+}
+
+.main-content {
+    background: white;
+    height: 300px;
+    width: 100%;
+}
+
+#navbar-brand-heading {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    background: #666666;
+    color: #cccccc;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    overflow: auto;
+    display: block;
+    bottom: 0;
+    width: 100%;    
+}
+
+h2,
+h3 {
+    border-bottom: 2px solid #cccccc;
+}
+
+ul {
+    padding: 0px;
+    text-align: center;
+}
+
+.inline-items li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 15px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.image { 
+    position: relative;
+    width: 200px;
+    margin: 10px;
+ }
+ 
+.img-title { 
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom:20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+ }
